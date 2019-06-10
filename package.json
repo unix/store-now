@@ -1,0 +1,24 @@
+{
+  "name": "store-now",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -c tslint.yml -p tsconfig.json",
+    "test": "yarn build && ava",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/node": "^12.0.7",
+    "ava": "^2.0.0",
+    "fs-extra": "^8.0.1",
+    "tslint": "^5.17.0",
+    "tslint-config-lambdas": "^1.1.0",
+    "typescript": "^3.5.1"
+  }
+}
